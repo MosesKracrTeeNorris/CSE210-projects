@@ -4,7 +4,7 @@ class Program
     static void Main(string[] args)
     {
         Job job1 = new Job();
-        Job1._jobTitle = "IT Suport Supervisor";
+        Job1._jobTitle = "IT Suport Officer";
         Job1._company = "Neturon Technologies Liberia";
         Job1._startYear = 2018;
         Job1._endYear = 2020;
