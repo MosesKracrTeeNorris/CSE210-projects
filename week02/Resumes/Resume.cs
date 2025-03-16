@@ -3,8 +3,8 @@ using System;
 public class Resume
 {
     public string _name;
-    public List<Job1> _jobs = new List<Job1>();
-    public List<Job2> _jobs = new List<Job2>();
+    public  List<Job> _jobs = new List<Job>();
+    //public List<Job> _jobs = new List<Job2>();
 
     public void Display()
     {
