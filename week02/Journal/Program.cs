@@ -7,7 +7,7 @@ class Program
         int action = 0;
         Console.WriteLine("Welcome to the Journal Program!.");
         Journal journal = new Journal();
-        JournalPrompt jp = new JournalPrompt();
+        PromptGenerator pg = new PromptGenerator();
 
         while (action = {validNumbers})
         {
@@ -20,15 +20,15 @@ class Program
                     string dateInfo = GetDateTime();
                     string prompt = jp.GetPrompt();
 
-                    JournalEntry entry = new JournalEntry();
+                    Entry entry = new Entry();
                     entry._entryNumber = entryId;
                     entry._dateTime = dateInfo;
-                    entry._journalPrompt = prompt;
+                    entry._PromptGenerator = prompt;
 
                     Console.WriteLine($"{prompt}");
                     Console.Write(">>> ");
                     string userEntry = Console.ReadLine();
-                    entry._journalEntry = userEntry;
+                    entry._Entry = userEntry;
 
                     journal._journal.Add(entry);
 
