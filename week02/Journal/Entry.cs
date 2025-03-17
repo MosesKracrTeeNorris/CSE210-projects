@@ -5,7 +5,7 @@ public class Entry
    public string _dateTime = "";
    public string _PromptGenerator = "";
    public string _Entry = "";
-   public string _entryText = ;
+   public string _entryText = "";
 
    public Entry()
    {

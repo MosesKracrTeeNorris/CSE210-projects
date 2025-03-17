@@ -92,9 +92,9 @@ public void CreateJSON(string userInput)
     {
         _data.Add(new JsonItem());
     {
-                ID = journalEntry._entryNumber,
-                Date = Entry._dateTime,
-                Prompt = Entry._PromptGenerator,
+                ID = journalEntry._entryNumber
+                Date = Entry._dateTime
+                Prompt = Entry._PromptGenerator
                 Entry = Entry._Entry
             }
             string json = JsonSerializer.Serialize(_data);
